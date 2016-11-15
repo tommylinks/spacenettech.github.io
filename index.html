@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+   
+<!-- SITE TITLE -->
+
+	<title>SNT</title>
+
+<!-- =========================
+      FAV AND TOUCH ICONS  
+============================== -->
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+
+<!-- =========================
+     STYLESHEETS   
+============================== -->
+<style>
+    @font-face {
+    font-family: 'segoe-light';
+    font-style: normal;
+    font-weight: 100;
+    src: url('fonts/SegoeUILight/SegoeUILight.eot') format('eot');
+    src: url('fonts/SegoeUILight/SegoeUILight.ttf') format('ttf');
+    src: url('fonts/SegoeUILight/SegoeUILight.woff') format('woff');  
+    }
+    @font-face {
+    font-family: 'segoe-regular';
+    font-style: normal;
+    font-weight: 300;
+    src: url('fonts/SegoeUIRegular/SegoeUIRegular.eot') format('eot');
+    src: url('fonts/SegoeUIRegular/SegoeUIRegular.ttf') format('ttf');
+    src: url('fonts/SegoeUIRegular/SegoeUIRegular.woff') format('woff');  
+    }
+</style>
+
+<script type="text/javascript">
+	var IE = (navigator.appName == "Microsoft Internet Explorer");
+	if (IE) {self.parent.location = "http://snt.net.ua/ie-fix/";}
+</script>
+<link rel="stylesheet" href="css/master.css" type="text/css" media="all">
+  <link rel="stylesheet" href="hunter/snt-cb.css" type="text/css" media="all">  
+</head>
+<body>
+
+<!-- Loader -->
+<div id="page-preloader" style="display: none;"><span class="spinner"></span></div>
+<!-- Loader end -->
+
+<div class="snt-wrapper">
+<div class="container"> 
+
+<!-- =========================
+     HEADER   
+============================== -->
+<div class="header">
+	<div class="pix_row row">
+		
+		<!-- === LOGO === -->
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-9">
+			<a href="/" class="logo">
+			<img src="images/logo.png"  alt="logo"/></a>
+		</div>
+        
+		<!-- === MAIN MENU === -->
+		<div class="col-lg-9 col-md-9 col-sm-9 col-xs-3">
+			<div class="slide-menu">
+				<nav> 
+					
+					<!-- === SHOW MENU BUTTON === -->
+					<button data-toggle="offcanvas" class="hamburger is-closed" type="button">
+						<span class="hamb-top"></span>
+						<span class="hamb-middle"></span>
+						<span class="hamb-bottom"></span>
+					</button>
+					
+					<!-- === MENU ITEMS === -->					
+					<ul class="main-menu">
+						<li class="dropdown">
+							<a class="dropdown-toggle" href="/">
+								Главная
+							</a>
+
+						</li>
+						<li><a href="about">О нас</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="/opportunity/">
+								Наши возможности
+							</a>
+							<!--<ul class="dropdown-menu">
+								<li><a href="/front-end/">Фронт-энд</a></li>
+								<li><a href="/back-end/">Бэк-энд</a></li>
+							</ul>-->
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="/portfolio/">
+								Портфолио
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="/portfolio/i-shops/">Интернет-магазины</a></li>
+								<li><a href="/portfolio/landing/">Лендинги</a></li>
+								<li><a href="/portfolio/sites/">Многостраничные сайты</a></li>
+							</ul>
+						</li>
+						<li><a href="/templates/">Шаблоны Битрикс</a></li>
+						<li><a href="/contacts/">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+    </div>
+</div>
+<!-- =========================
+    END HEADER   
+============================== -->
+  
+<!-- =========================
+    MAIN CONTENT
+============================== -->
+<main class="section" id="main">
+    
+	<!-- =========================
+		SLIDER ROW
+	============================== -->
+	<div class="pix_row scrollreveal row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="pix-item no-scale main-slider">
+			
+			<!-- === SLIDER BUTTONS === -->					
+			<a href="#" class="main-slider-prev" id="main-slider-prev"><i class="fa fa-long-arrow-left"></i></a>
+			<a href="#" class="main-slider-next" id="main-slider-next"><i class="fa fa-long-arrow-right"></i></a>
+			
+			<div class="slider-pro" id="my-slider">
+				<div class="sp-slides">
+                    
+                    <!-- === SLIDER ITEM === -->		
+					<div class="sp-slide">
+						<img class="sp-image" src="images/sl2.jpg"  alt="galliope" />
+                        
+                        
+						<h2 class="sp-layer text-white"
+                            data-position="leftCenter" data-vertical="-35" data-horizontal="80"
+        					data-show-transition="right" data-hide-transition="left" data-show-delay="300" data-hide-delay="450">
+        				Разработка интернет-магазинов
+        				</h2>
+						<p class="sp-layer text-white"
+                            data-position="leftCenter" data-vertical="35" data-horizontal="80"
+        					data-show-transition="right" data-hide-transition="left" data-show-delay="450" data-hide-delay="300">
+							на профессиональной платформе 1С-Битрикс.
+						</p>
+					</div>
+				
+					<!-- === SLIDER ITEM === -->		
+					<div class="sp-slide">
+						<img class="sp-image" src="images/sl1.jpg" alt="galliope" />
+                        
+                        
+                        <h2 class="sp-layer text-white"
+                            data-position="centerBottom" data-vertical="120"
+        					data-show-transition="up" data-hide-transition="down" data-show-delay="300" data-hide-delay="450">
+        					Создаем лендинги, многостраничные сайты
+        				</h2>
+						<p class="sp-layer text-white"
+                            data-position="centerBottom" data-vertical="95"
+        					data-show-transition="up" data-hide-transition="down" data-show-delay="450" data-hide-delay="300">
+							 с использованием современных CMS: WordPress, Joomla, 1c-Битрикс 
+						</p>
+					</div>
+                    
+                    <!-- === SLIDER ITEM === -->		
+					<div class="sp-slide">
+						<img class="sp-image" src="images/sl3.jpg" alt="galliope" />
+                        
+                        
+                        <h2 class="sp-layer text-white"
+                            data-position="centerTop" data-vertical="120"
+        					data-show-transition="down" data-hide-transition="up" data-show-delay="300" data-hide-delay="450">
+        					Настройка Веб-серверов
+        				</h2>
+						<p class="sp-layer text-white"
+                            data-position="centerTop" data-vertical="95"
+        					data-show-transition="down" data-hide-transition="up" data-show-delay="450" data-hide-delay="300">
+							 Оптимизация и настройка производительности сайтов 
+						</p>
+					</div>			
+					
+				</div>
+			</div>
+			
+		</div>
+      </div>
+    </div>
+	<!-- =========================
+		END SLIDER ROW
+	============================== -->
+	
+	<!-- =========================
+		ROW 2
+	============================== -->
+    <div class="pix_row scrollreveal row">
+	
+		<div class="col-md-4 col-sm-12 col-xs-12">
+			<div class="pix-item x2 y2   ">
+				<div class="hover-mask" data-background="#FFD900">
+					<div class="snt-tile-desk">
+						<h2>Кроссбраузерные<br>лендинги</h2>
+						<p>с адаптивной версткой</p>
+						<a class="snt-tile-btn snt-bg-blue" href="/portfolio/landing/">Подробнее</a>
+					</div>
+				</div>
+				<a href="10-portfolio-single.html"><img src="images/tile-phone.jpg" alt="galliope" class="img-responsive" /></a>
+			</div>
+		</div>
+				
+		<div class="col-md-8 col-sm-12 col-xs-12">
+		
+			<div class="pix_row scrollreveal row">
+			
+				<div class="col-md-4  col-sm-4 col-xs-12">
+					<div class="pix-item y1">
+						<a href="/about/">
+							<div class="pix-item-wrap" data-color="#FFD900">
+								<div class="pix-item-text  divider-right-bot   text-center"> <img src="images/icons/alien.png" class="snt-icons azexo-reveal azexo-circle-5 azexo-inner" data-azexo-start-delay="100">
+									<h4>О НАС</h4>
+								</div>
+								<span class="border-bottom"></span>
+							</div>
+						</a>
+					</div>
+				</div>
+				
+				<div class="col-md-8  col-sm-8 col-xs-12">
+					<div class="pix-item y1">
+						<div class="hover-mask" data-background="#1D7ECF">
+						<div class="snt-tile-desk">
+                             <h2>Шаблоны для битрикс</h2>
+							<a class="snt-tile-btn snt-bg-yellow" href="/templates/">Подробнее</a>
+						</div>
+						</div>        
+						<a href="10-portfolio-single.html"> <img src="images/tile-bitrix.jpg" width="595" height="277" alt="galliope" ></a>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="pix_row scrollreveal row">
+				<div class="col-md-12  col-sm-12 col-xs-12">
+					<div class="pix-item y1   ">
+						<div class="pix-item-wrap">
+							<div class="pix-item-text bg-gray  ">
+
+								<p class="text-center mb0">
+                                    <ul>
+                                        <li>Разрабатываем сайты и интернет-магазины, любого уровня сложности с применением прогрессивных технологий Web-разработки.</li>
+                                        <li>Настраиваем Web серверы на базе Unix и оптимизируем производительность сайтов и приложений.</li>
+                                        <li>Создаем экслюзивный дизайн для сайтов, посадочных страниц и интернет-магазинов с элементами 3d графики и профессиональной фотосъемки.</li>
+                                </ul>
+                                </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	
+	</div>
+	<!-- =========================
+		END ROW 2
+	============================== -->
+	
+	<!-- =========================
+		ROW 3
+	============================== -->
+        <div class="pix_row scrollreveal row">
+	
+		<div class="col-md-4 col-sm-12 col-xs-12">
+			<div class="pix-item y1">
+				<div class="pix-item-wrap">
+					<div class="pix-item-text divider-right-bot divider-right-bot-x2">
+						<p>Наша компания специализируется на создании интернет-магазинов на платформе 1С-Битрикс, включая настройку обмена товарами и заказами с 1С:Предприятием.</p>
+						<a href="#" class="btn btn-lg btn-read-more ">Подробнее...</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+			<div class="pix_row scrollreveal row">
+			
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="pix-item y1">
+						<a href="/opportunity/">
+							<div class="pix-item-wrap" data-color="#3198de">
+								<div class="pix-item-text divider-right-bot  text-center "> 
+                                    <img src="images/icons/satellite-dish.png" class="snt-icons">
+									<h4 class="mb0">НАШИ ВОЗМОЖНОСТИ</h4>
+								</div>
+								<span class="border-bottom" ></span>
+							</div>
+						</a>
+					</div>
+				</div>
+				
+				<div class="col-md-4  col-sm-4 col-xs-12">
+					<div class="pix-item y1" >
+						<div class="azexo-reveal azexo-plane-3" data-azexo-start-delay="1000" data-azexo-angle="0" data-azexo-color-1="#3198de">						  
+							<div class="hover-mask" data-background="#3198de" style="padding-top:20px;">
+							<div class="snt-tile-desk">
+								 <h2>Настройка web-серверов</h2>
+                                <p>на базе Unix: VPS/VDS, Dedicated.</p>
+								<a class="snt-tile-btn snt-bg-yellow" href="/server-maintenance/">Подробнее</a>
+							</div>	
+							</div>
+							<a href="10-portfolio-single.html"><img width="300" height="277" alt="galliope" src="images/2(2).jpg"></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4  col-sm-4 col-xs-12">
+					<div class="pix-item y1">
+				
+						<div class="pix-item-wrap" data-color="#ffd24d">
+							<div class="pix-item-text divider-left-top text-center ">
+								<img src="images/icons/telescope.png" class="snt-icons">
+								<h4 class="mb0">НАШИ РАБОТЫ</h4>
+							</div>
+							<span class="border-bottom"></span>
+						</div>
+				
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+	</div>
+	<!-- =========================
+		END ROW 3
+	============================== -->
+	
+	<!-- =========================
+		ROW 4
+	============================== -->
+    <div class="pix_row scrollreveal row">
+	
+		<div class="col-md-4 col-sm-12 col-xs-12">
+		
+			
+            
+
+			<div class="pix-item y1 ">
+             <div class="azexo-reveal azexo-plane-3" data-azexo-start-delay="1500" data-azexo-angle="0" data-azexo-color-1="#1d7ed0">
+                <div class="hover-mask" data-background="#1d7ed0">
+				<div class="snt-tile-desk">
+                    <h2>Дизайн</h2>
+                    <p>Современный, запоминающийся дизайн вашего сайта.</p>
+                    <a class="snt-tile-btn snt-bg-yellow" href="/design/">Подробнее</a>
+				</div>
+                </div>
+                <a href="10-portfolio-single.html"><img src="images/landing.jpg" alt="browser-landing"></a>
+							</div>
+			</div>
+	
+			
+			<div class="pix-item y1 ">
+             <div class="azexo-reveal azexo-plane-3" data-azexo-start-delay="1500" data-azexo-angle="0" data-azexo-color-1="#00DDCE">
+                <div class="hover-mask" data-background="#00DDCE" style="padding: 5px;">
+				<div class="snt-tile-desk">
+                    <h2>Многостраничные сайты</h2>
+                    <p>High Resolution: Yes, Compatible Browsers: IE9, IE10, IE11, Firefox, Safari, Opera, Chrome, Compatible With: Bootstrap 3.x</p>
+                    <a class="snt-tile-btn snt-bg-yellow" href="/portfolio/sites/">Подробнее</a>
+				</div>	
+                </div>
+                <a href="10-portfolio-single.html"><img src="images/top-secret.jpg" alt="browser-landing"></a>
+							</div>
+			</div>
+			
+		</div>
+		
+		<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+			<div class="pix_row scrollreveal row">
+			
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+					<div class="pix-item x2 y2">
+						<div class="azexo-reveal azexo-plane-1" data-azexo-color-1="01BB00" data-azexo-start-delay="100">
+							<div class="hover-mask" data-background="#F64C01">
+							<div class="snt-tile-desk">
+								<h2>Интернет-магазины</h2>
+								<p>на профессиональной CMS 1С-Битрикс</p>
+								<a class="snt-tile-btn snt-bg-blue" href="/portfolio/i-shops/">Подробнее</a>
+							</div>	
+							</div>            
+							<a href="10-portfolio-single.html"><img src="images/responsive.jpg" width="600" height="556" alt="galliope"></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="pix-item y1">
+						<div class="azexo-reveal azexo-plane-3" data-azexo-start-delay="1500" data-azexo-angle="0" data-azexo-color-1="#FFD900">
+							<div class="hover-mask" data-background="#FFD900">
+							<div class="snt-tile-desk">
+								<h2>Оптимизация</h2>
+                                <p>производительности сайтов.</p>
+								<a class="snt-tile-btn snt-bg-blue" href="/optimization/">Подробнее</a>
+							</div>	
+							</div>
+							<a href="10-portfolio-single.html"><img width="300" height="277" alt="galliope" src="images/tile-ship.jpg"></a>
+						</div>
+					</div>
+					
+					<div class="pix-item y1">
+						<a href="/portfolio/">
+						<div class="pix-item-wrap" data-color="#ffd24d">
+							<div class="pix-item-text divider-left-bot text-center ">
+								<img src="images/icons/UFO.png" class="snt-icons shake-slow shake-freeze">
+								<h4 class="mb0">КОНТАКТЫ</h4>
+							</div>
+							<span class="border-bottom"></span>
+						</div>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+	</div>
+	<!-- =========================
+		ROW 4
+	============================== -->
+	
+	
+	
+</main>
+<!-- =========================
+	END MAIN CONTENT
+============================== -->
+
+<!-- =========================
+	FOOTER
+============================== -->
+<footer class="footer divider-right-bot divider-right-bot-footer">
+	
+	<div class="row">
+		<div class="col-md-12 col-sm-12 col-xs-12">
+			<div class="fot-logo">
+				<img src="images/logo-footer.png"  alt="galliope">
+			</div>
+		</div>
+	</div>
+		
+	<div class="row">
+		<div class="col-md-12 col-sm-12 col-xs-12">
+				<nav>
+				<ul>
+					<li><a href="/">ГЛАВНАЯ</a></li>
+					<li><a href="/about/">О НАС</a></li>
+					<li><a href="/opportunity/">НАШИ ВОЗМОЖНОСТИ</a></li>
+					<li><a href="/portfolio/">ПОРТФОЛИО</a></li>
+					<li><a href="/theme-bitrix/">ШАБЛОНЫ БИТРИКС</a></li>
+					<li><a href="/contacts/">КОНТАКТЫ</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+		
+	<div class="row">
+		<div class="col-md-12 col-sm-12 col-xs-12">
+			<div class="copy">Copyright © SNT 2016. Space Net Technology </div>
+		</div>
+	</div>
+	
+</footer>
+<!-- =========================
+	END FOOTER
+============================== -->
+
+
+<!-- =========================
+   MOBILE MENU
+============================== -->
+<aside id="mobile-menu">
+		
+	<!-- === SLIDE MENU === -->	
+	<ul id="left-menu" class="left-menu">	
+		
+		<li class="active">
+			<a href="/">ГЛАВНАЯ</a>
+		</li>
+		<li><a href="/about/">О НАС</a></li>
+		<li>
+			<a href="/opportunity/">НАШИ ВОЗМОЖНОСТИ <i class="fa fa-plus arrow"></i></a>
+			<ul class="slide-menu-child collapse">
+				<li><a href="alliope/06-blog-main.html">ФРОНТ-ЭНД</a></li>
+				<li><a href="galliope/07-blog-post.html">БЭК-ЭНД</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="/portfolio/">ПОРТФОЛИО</a>
+		</li>
+		<li><a href="/theme-bitrix/">ШАБЛОНЫ БИТРИКС</a></li>
+		<li class="latest"><a href="/contacts/">КОНТАКТЫ</a></li>
+
+	</ul>
+	
+</aside>
+
+
+
+
+<!--START SNT CALLBACK HUNTER     -->
+        <div id="snt-cb-wrapper">
+            <form id="snt-callback-form" method="post" >
+                <div class="snt-phone-wrapper" class="">
+                    <div id="snt-input-wrapper" class="snt-callback-input animated slideOutRight">
+                        <input id="input-fill" class="snt-input-style" type="text" name="contactFF" pattern="^[0-9\+\(\)\-\ ]+$" required placeholder="Введите ваш телефон...">
+                    </div>
+                    <div id="snt-btn-submit-wrapper" class="snt-callback-input">
+                        <input type="submit" name="submit" id="snt-btn-submit" class="snt-btn-submit snt-input-style" value="ok">
+                    </div>  
+                </div>
+            
+                <div class="mail-wrapper" class="">
+                    <div id="snt-btn-wrapper" class="snt-callback-input">
+                        <input id="snt-btn-email" class="snt-btn-submit snt-input-style" type="button"  value="ok">
+                    </div> 
+                </div>
+            </form>
+        </div>
+        <div id="snt-popup" class="snt-close snt-popup">
+        <form id="snt-order-form" class="snt-form-contact" method="post">
+            <div class="inputs-wrapper">
+                <input class="form-name" type="text" placeholder="ФИО" name="nameMM" pattern="^[A-Za-zА-Яа-яЁё\s]+$" required="">
+                <input class="form-email" type="text" name="contactMM" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Введите Ваш E-mail" required="">
+                <textarea class="form-message" name="messageMM" pattern="^[A-Za-zА-Яа-яЁё\s]+$" placeholder="Ваше письмо"></textarea>
+            </div>
+              <div class="modal-footer">
+                <button id="snt-close-btn" type="button" class="snt-btn-primary" >Закрыть</button>
+                <button type="submit" name="submit" class="snt-btn-primary">Оставить заявку</button>
+              </div>
+        </form>
+        </div>
+        <div id="snt-form-ok" class="snt-popup snt-close">
+            <h2 class="snt-form-ok-title text-center">СУПЕР!</h2>
+            <p class="snt-form-ok-desc">Заявка принята, мы скоро Вам перезвоним.</p>
+        </div>
+        <div id="snt-mask"></div>
+<!--END SNT CALLBACK HUNTER     -->  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- =========================
+   END MOBILE MENU
+============================== -->
+
+<!-- =========================
+   BLACK OVERLAY
+============================== -->
+<div class="black-overlay" id="black-overlay"></div>
+<!-- =========================
+   END BLACK OVERLAY
+============================== -->
+
+</div>
+</div>
+
+
+<!-- =========================
+	SCRIPTS
+============================== -->
+
+<!-- LIBRARIES -->
+
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="js/jquery-migrate-1.2.1.js" type="text/javascript"></script>
+<script src="js/jquery-ui.min.js" type="text/javascript"></script>
+<script src="js/bootstrap-3.1.1.min.js" type="text/javascript"></script>
+<script src="js/modernizr.custom.js" type="text/javascript"></script>
+
+<!-- AZERO--> 
+
+<script type="text/javascript" src="js/azexo_reveals.min.js"></script> 
+<script type="text/javascript" src="js/easejs.js"></script> 
+<script type="text/javascript" src="js/tweenjs.js"></script> 
+<script type="text/javascript" src="js/azexo_reveals.min.js"></script> 
+<script type="text/javascript" src="js/azexo_transitions.min.js"></script> 
+
+<!-- OTHER SCRIPTS --> 
+<script type="text/javascript" src="js/jquery.sliderPro.min.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script> 
+<script type="text/javascript" src="js/jquery.shuffleLetters.js"></script>
+<script type="text/javascript" src="js/jquery.tickertype.js"></script>
+<script type="text/javascript" src="js/scrollreveal.min.js"></script>
+<script type="text/javascript" src="js/waypoints.min.js"></script> 
+<script type="text/javascript" src="js/jquery.magnific-popup.js"></script> 
+<script type="text/javascript" src="js/metisMenu.min.js"></script>
+<script type="text/javascript" src="js/jquery.form-validator.min.js"></script>
+<script type="text/javascript" src="js/classie.js"></script> 
+<script type="text/javascript" src="js/cssua.min.js"></script> 
+<script type="text/javascript" src="js/snt-feedback.js"></script>
+
+<!--logo js-->
+<script src='js/particleslider.js'></script>
+<!--<script src='js/ParticleSliderSamples.js'></script>-->
+<!--logo js-->
+
+
+
+
+
+
+
+ <script src="hunter/snt-cb.js" ></script>
+    <script src="hunter/feedback-form.js" ></script>
+
+
+
+
+<!-- CUSTOM SCRIPT --> 
+<script type="text/javascript" src="js/custom.js"></script>
+
+<script>
+$(function() {
+     var url=document.location.href;
+     $.each($('.main-menu a'),function(){
+     if(this.href==url){$(this).parent('li').addClass('active');};
+     });     
+});
+    </script>
+<script>    
+var ps = new ParticleSlider();
+//Remove the next line to enable particle noise
+ps.restless = false;
+
+initInfomenu(0); //Sidemenu - just for CodePen
+</script>
+
+
+    
+</body>
+</html>

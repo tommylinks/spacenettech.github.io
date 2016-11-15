@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+   
+<!-- SITE TITLE -->
+
+	<title>SNT</title>
+
+<!-- =========================
+      FAV AND TOUCH ICONS  
+============================== -->
+<link rel="shortcut icon" type="image/x-icon" href="../favicon.png">
+
+<!-- =========================
+     STYLESHEETS   
+============================== -->
+<style>
+    @font-face {
+    font-family: 'segoe-light';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/SegoeUILight/SegoeUILight.eot') format('eot');
+    src: url('../fonts/SegoeUILight/SegoeUILight.ttf') format('ttf');
+    src: url('../fonts/SegoeUILight/SegoeUILight.woff') format('woff');  
+    }
+    @font-face {
+    font-family: 'segoe-regular';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/SegoeUIRegular/SegoeUIRegular.eot') format('eot');
+    src: url('../fonts/SegoeUIRegular/SegoeUIRegular.ttf') format('ttf');
+    src: url('../fonts/SegoeUIRegular/SegoeUIRegular.woff') format('woff');  
+    }
+</style>
+
+<script type="text/javascript">
+	var IE = (navigator.appName == "Microsoft Internet Explorer");
+	if (IE) {self.parent.location = "http://snt.net.ua/ie-fix/";}
+</script>
+<link rel="stylesheet" href="../css/master.css" type="text/css" media="all">
+  <link rel="stylesheet" href="../hunter/snt-cb.css" type="text/css" media="all">  
+</head>
+<body>
+
+<!-- Loader -->
+<div id="page-preloader" style="display: none;"><span class="spinner"></span></div>
+<!-- Loader end -->
+
+<div class="snt-wrapper">
+<div class="container"> 
+
+<!-- =========================
+     HEADER   
+============================== -->
+<div class="header">
+	<div class="pix_row row">
+		
+		<!-- === LOGO === -->
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-9">
+			<a href="/" class="logo">
+			<img src="../images/logo.png"  alt="logo"/></a>
+		</div>
+        
+		<!-- === MAIN MENU === -->
+		<div class="col-lg-9 col-md-9 col-sm-9 col-xs-3">
+			<div class="slide-menu">
+				<nav> 
+					
+					<!-- === SHOW MENU BUTTON === -->
+					<button data-toggle="offcanvas" class="hamburger is-closed" type="button">
+						<span class="hamb-top"></span>
+						<span class="hamb-middle"></span>
+						<span class="hamb-bottom"></span>
+					</button>
+					
+					<!-- === MENU ITEMS === -->					
+					<ul class="main-menu">
+						<li class="dropdown">
+							<a class="dropdown-toggle" href="/">
+								Главная
+							</a>
+
+						</li>
+						<li><a href="about/">О нас</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="/opportunity/">
+								Наши возможности
+							</a>
+							<!--<ul class="dropdown-menu">
+								<li><a href="/front-end/">Фронт-энд</a></li>
+								<li><a href="/back-end/">Бэк-энд</a></li>
+							</ul>-->
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="portfolio/">
+								Портфолио
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="portfolio/i-shops/">Интернет-магазины</a></li>
+								<li><a href="portfolio/landing/">Лендинги</a></li>
+								<li><a href="portfolio/sites/">Многостраничные сайты</a></li>
+							</ul>
+						</li>
+						<li><a href="templates/">Шаблоны Битрикс</a></li>
+						<li><a href="contacts/">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+    </div>
+</div>
+<!-- =========================
+    END HEADER   
+============================== -->
+  
+<!-- =========================
+    MAIN CONTENT
+============================== -->
+<main class="section" id="main">
+ <!-- === CONTACTS MAP === -->
+
+	<div class="row"> 
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="post-thumb"><img src="../images/detail-1.jpg" alt="galliope" /></div>
+			</div>
+	</div>	
+	<div class="pix_row row contact-info">
+		
+		
+		
+		<!-- === CONTACTS FORM === -->
+		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+			<div class="contact-form">
+				<form name="contact-form" id="contact-form" method="POST" >
+					<div class="contact-form-item contact-form-item-1 col-md-4 col-sm-4 col-xs-12">
+						<label for="username">ФИО</label>
+						<input data-validation="length" data-validation-length="min4" type="text" name="nameFF" id="username" pattern="^[A-Za-zА-Яа-яЁё\s]+$" placeholder="Как вас зовут?" />
+					</div>
+					<div class="contact-form-item contact-form-item-2 col-md-4 col-sm-4 col-xs-12">
+						<label for="email">Телефон</label>
+<!--						<input data-validation="email" type="text" id="email" name="contactFF" required />-->
+                        <input type="text" name="contactFF" required placeholder="+38(0xx)xxx xx xx" pattern="^[0-9\+\(\)\-\ ]+$" />
+					</div>
+<!--
+					<div class="contact-form-item contact-form-item-3 col-md-4 col-sm-4 col-xs-12">
+						<label for="subject">Тема</label>
+						<input data-validation="length" data-validation-length="min4" type="text" id="subject" name="subject" placeholder="" />
+					</div>
+-->
+					<div class="contact-form-item col-md-12 col-sm-12 col-xs-12">
+						<label for="comment">Текст письма</label>
+						<textarea data-validation="length" data-validation-length="min5" name="messageFF" pattern="^[A-Za-zА-Яа-яЁё\s]+$" id="comment" placeholder="Текст письма.."></textarea>
+					</div>
+					<div class="contact-form-item col-md-12 col-sm-12 col-xs-12">
+						<button type="submit" class="btn btn-info">Отправить</button>
+					</div>
+				</form>
+				<div class="send-result"></div>
+			</div>
+		</div>
+        
+        <!-- Modal -->
+<div class="modal  " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"  aria-hidden="false">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Спасибо за заявку на сайте www.snt.net.ua</h4>
+      </div>
+      <div class="modal-body">
+          Ожидайте звонка менеджера.
+      </div>
+    </div>
+  </div>
+</div>
+		
+	</div>
+</main>
+<!-- =========================
+	END MAIN CONTENT
+============================== -->
+
+<!-- =========================
+	FOOTER
+============================== -->
+<footer class="footer divider-right-bot divider-right-bot-footer">
+	
+	<div class="row">
+		<div class="col-md-12 col-sm-12 col-xs-12">
+			<div class="fot-logo">
+				<img src="../images/logo-footer.png"  alt="galliope">
+			</div>
+		</div>
+	</div>
+		
+	<div class="row">
+		<div class="col-md-12 col-sm-12 col-xs-12">
+				<nav>
+				<ul>
+					<li><a href="/">ГЛАВНАЯ</a></li>
+					<li><a href="about/">О НАС</a></li>
+					<li><a href="opportunity/">НАШИ ВОЗМОЖНОСТИ</a></li>
+					<li><a href="portfolio/">ПОРТФОЛИО</a></li>
+					<li><a href="theme-bitrix/">ШАБЛОНЫ БИТРИКС</a></li>
+					<li><a href="contacts/">КОНТАКТЫ</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+		
+	<div class="row">
+		<div class="col-md-12 col-sm-12 col-xs-12">
+			<div class="copy">Copyright © SNT 2016. Space Net Technology </div>
+		</div>
+	</div>
+	
+</footer>
+<!-- =========================
+	END FOOTER
+============================== -->
+
+
+<!-- =========================
+   MOBILE MENU
+============================== -->
+<aside id="mobile-menu">
+		
+	<!-- === SLIDE MENU === -->	
+	<ul id="left-menu" class="left-menu">	
+		
+		<li class="active">
+			<a href="/">ГЛАВНАЯ</a>
+		</li>
+		<li><a href="about/">О НАС</a></li>
+		<li>
+			<a href="opportunity/">НАШИ ВОЗМОЖНОСТИ <i class="fa fa-plus arrow"></i></a>
+			<ul class="slide-menu-child collapse">
+				<li><a href="alliope/06-blog-main.html">ФРОНТ-ЭНД</a></li>
+				<li><a href="galliope/07-blog-post.html">БЭК-ЭНД</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="portfolio/">ПОРТФОЛИО</a>
+		</li>
+		<li><a href="theme-bitrix/">ШАБЛОНЫ БИТРИКС</a></li>
+		<li class="latest"><a href="contacts/">КОНТАКТЫ</a></li>
+
+	</ul>
+	
+</aside>
+
+
+<!--START SNT CALLBACK HUNTER     -->
+        <div id="snt-cb-wrapper">
+            <form id="snt-callback-form" method="post" >
+                <div class="snt-phone-wrapper" class="">
+                    <div id="snt-input-wrapper" class="snt-callback-input animated slideOutRight">
+                        <input id="input-fill" class="snt-input-style" type="text" name="contactFF" pattern="^[0-9\+\(\)\-\ ]+$" required placeholder="Введите ваш телефон...">
+                    </div>
+                    <div id="snt-btn-submit-wrapper" class="snt-callback-input">
+                        <input type="submit" name="submit" id="snt-btn-submit" class="snt-btn-submit snt-input-style" value="ok">
+                    </div>  
+                </div>
+            
+                <div class="mail-wrapper" class="">
+                    <div id="snt-btn-wrapper" class="snt-callback-input">
+                        <input id="snt-btn-email" class="snt-btn-submit snt-input-style" type="button"  value="ok">
+                    </div> 
+                </div>
+            </form>
+        </div>
+        <div id="snt-popup" class="snt-close snt-popup">
+        <form id="snt-order-form" class="snt-form-contact" method="post">
+            <div class="inputs-wrapper">
+                <input class="form-name" type="text" placeholder="ФИО" name="nameMM" pattern="^[A-Za-zА-Яа-яЁё\s]+$" required="">
+                <input class="form-email" type="text" name="contactMM" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Введите Ваш E-mail" required="">
+                <textarea class="form-message" name="messageMM" pattern="^[A-Za-zА-Яа-яЁё\s]+$" placeholder="Ваше письмо"></textarea>
+            </div>
+              <div class="modal-footer">
+                <button id="snt-close-btn" type="button" class="snt-btn-primary" >Закрыть</button>
+                <button type="submit" name="submit" class="snt-btn-primary">Оставить заявку</button>
+              </div>
+        </form>
+        </div>
+        <div id="snt-form-ok" class="snt-popup snt-close">
+            <h2 class="snt-form-ok-title text-center">СУПЕР!</h2>
+            <p class="snt-form-ok-desc">Заявка принята, мы скоро Вам перезвоним.</p>
+        </div>
+        <div id="snt-mask"></div>
+<!--END SNT CALLBACK HUNTER     -->  
+
+
+
+
+
+<!-- =========================
+   END MOBILE MENU
+============================== -->
+
+<!-- =========================
+   BLACK OVERLAY
+============================== -->
+<div class="black-overlay" id="black-overlay"></div>
+<!-- =========================
+   END BLACK OVERLAY
+============================== -->
+
+</div>
+</div>
+
+
+<!-- =========================
+	SCRIPTS
+============================== -->
+
+<!-- LIBRARIES -->
+
+<script src="../js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="../js/jquery-migrate-1.2.1.js" type="text/javascript"></script>
+<script src="../js/jquery-ui.min.js" type="text/javascript"></script>
+<script src="../js/bootstrap-3.1.1.min.js" type="text/javascript"></script>
+<script src="../js/modernizr.custom.js" type="text/javascript"></script>
+
+<!-- AZERO--> 
+
+<script type="text/javascript" src="../js/azexo_reveals.min.js"></script> 
+<script type="text/javascript" src="../js/easejs.js"></script> 
+<script type="text/javascript" src="../js/tweenjs.js"></script> 
+<script type="text/javascript" src="../js/azexo_reveals.min.js"></script> 
+<script type="text/javascript" src="../js/azexo_transitions.min.js"></script> 
+
+<!-- OTHER SCRIPTS --> 
+<script type="text/javascript" src="../js/jquery.sliderPro.min.js"></script>
+<script type="text/javascript" src="../js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="../js/owl.carousel.min.js"></script> 
+<script type="text/javascript" src="../js/jquery.shuffleLetters.js"></script>
+<script type="text/javascript" src="../js/jquery.tickertype.js"></script>
+<script type="text/javascript" src="../js/scrollreveal.min.js"></script>
+<script type="text/javascript" src="../js/waypoints.min.js"></script> 
+<script type="text/javascript" src="../js/jquery.magnific-popup.js"></script> 
+<script type="text/javascript" src="../js/metisMenu.min.js"></script>
+<script type="text/javascript" src="../js/jquery.form-validator.min.js"></script>
+<script type="text/javascript" src="../js/classie.js"></script> 
+<script type="text/javascript" src="../js/cssua.min.js"></script> 
+<script type="text/javascript" src="../js/snt-feedback.js"></script>
+
+<!--logo js-->
+<script src='../js/particleslider.js'></script>
+<!--<script src='js/ParticleSliderSamples.js'></script>-->
+<!--logo js-->
+
+
+
+
+
+
+
+ <script src="../hunter/snt-cb.js" ></script>
+    <script src="../hunter/feedback-form.js" ></script>
+
+
+
+
+<!-- CUSTOM SCRIPT --> 
+<script type="text/javascript" src="../js/custom.js"></script>
+
+<script>
+$(function() {
+     var url=document.location.href;
+     $.each($('.main-menu a'),function(){
+     if(this.href==url){$(this).parent('li').addClass('active');};
+     });     
+});
+    </script>
+<script>    
+var ps = new ParticleSlider();
+//Remove the next line to enable particle noise
+ps.restless = false;
+
+initInfomenu(0); //Sidemenu - just for CodePen
+</script>
+
+
+    
+</body>
+</html>
