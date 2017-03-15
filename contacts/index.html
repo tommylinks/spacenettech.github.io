@@ -133,11 +133,11 @@
 		<!-- === CONTACTS FORM === -->
 		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 			<div class="contact-form">
-				<form name="contact-form" id="contact-form" action="https://formspree.io/spacenettechnology@gmail.com"
+				<form name="contact-form"  action="https://formspree.io/spacenettechnology@gmail.com"
 					  method="POST" >
 					<div class="contact-form-item contact-form-item-1 col-md-4 col-sm-4 col-xs-12">
 						<label for="username">ФИО</label>
-						<input data-validation="length" data-validation-length="min4" type="text" name="name" id="username" pattern="^[A-Za-zА-Яа-яЁё\s]+$" placeholder="Как вас зовут?" />
+						<input  type="text" name="name" id="username" pattern="^[A-Za-zА-Яа-яЁё\s]+$" placeholder="Как вас зовут?" />
 					</div>
 					<div class="contact-form-item contact-form-item-2 col-md-4 col-sm-4 col-xs-12">
 						<label for="email">Телефон</label>
@@ -152,15 +152,17 @@
 -->
 					<div class="contact-form-item col-md-12 col-sm-12 col-xs-12">
 						<label for="comment">Текст письма</label>
-						<textarea data-validation="length" data-validation-length="min5" name="message" pattern="^[A-Za-zА-Яа-яЁё\s]+$" id="comment" placeholder="Текст письма.."></textarea>
+						<textarea name="message" pattern="^[A-Za-zА-Яа-яЁё\s]+$" id="comment" placeholder="Текст письма.."></textarea>
 					</div>
 					<div class="contact-form-item col-md-12 col-sm-12 col-xs-12">
 						<input type="submit" class="btn btn-info" value="Отправить">
 					</div>
 				</form>
-				<div class="send-result"></div>
+
 			</div>
 		</div>
+
+
         
         <!-- Modal -->
 <div class="modal  " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"  aria-hidden="false">
