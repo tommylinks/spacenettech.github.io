@@ -133,15 +133,16 @@
 		<!-- === CONTACTS FORM === -->
 		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 			<div class="contact-form">
-				<form name="contact-form" id="contact-form" method="POST" >
+				<form name="contact-form" id="contact-form" action="https://formspree.io/spacenettechnology@gmail.com"
+					  method="POST" >
 					<div class="contact-form-item contact-form-item-1 col-md-4 col-sm-4 col-xs-12">
 						<label for="username">ФИО</label>
-						<input data-validation="length" data-validation-length="min4" type="text" name="nameFF" id="username" pattern="^[A-Za-zА-Яа-яЁё\s]+$" placeholder="Как вас зовут?" />
+						<input data-validation="length" data-validation-length="min4" type="text" name="name" id="username" pattern="^[A-Za-zА-Яа-яЁё\s]+$" placeholder="Как вас зовут?" />
 					</div>
 					<div class="contact-form-item contact-form-item-2 col-md-4 col-sm-4 col-xs-12">
 						<label for="email">Телефон</label>
 <!--						<input data-validation="email" type="text" id="email" name="contactFF" required />-->
-                        <input type="text" name="contactFF" required placeholder="+38(0xx)xxx xx xx" pattern="^[0-9\+\(\)\-\ ]+$" />
+                        <input type="text" name="phone" required placeholder="+38(0xx)xxx xx xx" pattern="^[0-9\+\(\)\-\ ]+$" />
 					</div>
 <!--
 					<div class="contact-form-item contact-form-item-3 col-md-4 col-sm-4 col-xs-12">
@@ -151,10 +152,10 @@
 -->
 					<div class="contact-form-item col-md-12 col-sm-12 col-xs-12">
 						<label for="comment">Текст письма</label>
-						<textarea data-validation="length" data-validation-length="min5" name="messageFF" pattern="^[A-Za-zА-Яа-яЁё\s]+$" id="comment" placeholder="Текст письма.."></textarea>
+						<textarea data-validation="length" data-validation-length="min5" name="message" pattern="^[A-Za-zА-Яа-яЁё\s]+$" id="comment" placeholder="Текст письма.."></textarea>
 					</div>
 					<div class="contact-form-item col-md-12 col-sm-12 col-xs-12">
-						<button type="submit" class="btn btn-info">Отправить</button>
+						<input type="submit" class="btn btn-info" value="Отправить">
 					</div>
 				</form>
 				<div class="send-result"></div>

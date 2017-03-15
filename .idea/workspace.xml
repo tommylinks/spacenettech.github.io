@@ -35,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="theme.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/theme.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="355">
@@ -85,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contacts/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="237" column="0" lean-forward="true" selection-start-line="237" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
+            <state relative-caret-position="629">
+              <caret line="157" column="82" lean-forward="false" selection-start-line="157" selection-start-column="82" selection-end-line="157" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -120,6 +120,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>snt-cb-wrapper</find>
+      <find>post-content</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,11 +141,11 @@
         <option value="$PROJECT_DIR$/opportunity/sozdanie-lendingov/index.html" />
         <option value="$PROJECT_DIR$/about/index.html" />
         <option value="$PROJECT_DIR$/bitrix/index.html" />
-        <option value="$PROJECT_DIR$/contacts/index.html" />
         <option value="$PROJECT_DIR$/design/index.html" />
         <option value="$PROJECT_DIR$/opportunity/index.html" />
         <option value="$PROJECT_DIR$/opportunity/google-pagespeed-insights/index.html" />
         <option value="$PROJECT_DIR$/css/theme.css" />
+        <option value="$PROJECT_DIR$/contacts/index.html" />
       </list>
     </option>
   </component>
@@ -449,12 +450,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489583678383</updated>
-      <workItem from="1489583680577" duration="2699000" />
+      <workItem from="1489583680577" duration="3670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2699000" />
+    <option name="totallyTimeSpent" value="3670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -594,14 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contacts/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="237" column="0" lean-forward="true" selection-start-line="237" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -638,6 +631,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="1228" column="29" lean-forward="false" selection-start-line="1228" selection-start-column="29" selection-end-line="1228" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="157" column="82" lean-forward="false" selection-start-line="157" selection-start-column="82" selection-end-line="157" selection-end-column="82" />
           <folding />
         </state>
       </provider>
