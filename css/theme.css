@@ -1225,6 +1225,9 @@ ul .pix-item-text {
 	font-size:14px;
 	color:#444444;
 }
+
+.post-content p {font-size:16px;}
+
 .quote-left{
 	padding-left: 80px;
     position: relative;
