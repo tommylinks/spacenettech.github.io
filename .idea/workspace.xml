@@ -78,8 +78,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bitrix/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="181" column="20" lean-forward="false" selection-start-line="181" selection-start-column="20" selection-end-line="181" selection-end-column="20" />
+            <state relative-caret-position="-220">
+              <caret line="130" column="38" lean-forward="true" selection-start-line="130" selection-start-column="38" selection-end-line="130" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -451,12 +451,12 @@
       <option name="presentableId" value="Default" />
       <updated>1489583678383</updated>
       <workItem from="1489583680577" duration="4854000" />
-      <workItem from="1489761348567" duration="330000" />
+      <workItem from="1489761348567" duration="952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5184000" />
+    <option name="totallyTimeSpent" value="5806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -704,8 +704,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="181" column="20" lean-forward="false" selection-start-line="181" selection-start-column="20" selection-end-line="181" selection-end-column="20" />
+        <state relative-caret-position="-220">
+          <caret line="130" column="38" lean-forward="true" selection-start-line="130" selection-start-column="38" selection-end-line="130" selection-end-column="38" />
           <folding />
         </state>
       </provider>
